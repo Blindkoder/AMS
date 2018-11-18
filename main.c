@@ -131,7 +131,7 @@ void initDataRandomly() {
        studentInfo[i].totalAttendance = (rand()%100)+1;
     }
     for(i=0;i<5;i++)
-        for(j=0;j<7;j++)
+        for(j=0;j<5;j++)
             weeklyAttInfo[i][j].totalOfDay = (rand()%8)+1;
     for(i=0;i<5;i++)
         for(j=0;j<12;j++)
